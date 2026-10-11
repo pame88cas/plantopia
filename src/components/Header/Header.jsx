@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="logo-container">
         <Link to={"/"}>
           <img src={logo} alt="logo Brotes" />
-          <span>Brotes</span>
+          <span>Plantopía</span>
         </Link>
       </div>
       <Nav />
