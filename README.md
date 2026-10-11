@@ -1,16 +1,56 @@
-# React + Vite
+# Plantopía 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda online de plantas desarrollada como trabajo práctico del curso de React (Talento Tech). Permite explorar un catálogo de productos, ver el detalle de cada planta y gestionar un carrito de compras.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Listado de productos obtenido de forma asíncrona (`fetch`).
+- Filtro de productos por categoría.
+- Vista de detalle de cada producto.
+- Carrito de compras con Context API: agregar, quitar y ver el resumen de la compra.
+- Navegación entre vistas con React Router.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- React Router DOM
+- Vite
+- CSS
 
-## Expanding the ESLint configuration
+## Instalación y uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clonar el repositorio e instalar las dependencias:
+
+```bash
+npm install
+```
+
+Levantar el entorno de desarrollo:
+
+```bash
+npm run dev
+```
+
+Generar la build de producción:
+
+```bash
+npm run build
+```
+
+## Estructura del proyecto
+
+```
+src/
+├─ components/
+│  ├─ Header, Nav, Footer       → estructura general del sitio
+│  ├─ ItemListContainer / Item  → catálogo de productos
+│  ├─ ItemDetailContainer       → detalle de producto
+│  └─ Cart                      → carrito de compras
+├─ context/
+│  └─ CartContext                → estado global del carrito
+└─ App.jsx                       → rutas de la aplicación
+```
+
+## Autora
+
+Pame — Talento Tech, curso de React JS.
