@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Suculenta Echeveria",
+    "description": "Roseta de hojas carnosas verde azulado, ideal para interiores luminosos. Riego espaciado y muy fácil de cuidar.",
+    "price": 4500,
+    "image": "/img/plants/echeveria.jpg",
+    "category": "suculentas"
+  },
+  {
+    "id": 2,
+    "name": "Suculenta Haworthia",
+    "description": "Pequeña suculenta de hojas puntiagudas con rayas blancas translúcidas. Perfecta para escritorios y espacios chicos.",
+    "price": 3800,
+    "image": "/img/plants/haworthia.jpg",
+    "category": "suculentas"
+  },
+  {
+    "id": 3,
+    "name": "Potus Dorado",
+    "description": "Planta colgante de hojas acorazonadas verde y amarillo. Purifica el aire y tolera muy bien la sombra.",
+    "price": 6200,
+    "image": "/img/plants/potus.jpg",
+    "category": "interior"
+  },
+  {
+    "id": 4,
+    "name": "Monstera Deliciosa",
+    "description": "La clásica planta de hojas grandes con aberturas naturales. Le da un toque tropical a cualquier ambiente.",
+    "price": 15800,
+    "image": "/img/plants/monstera.jpg",
+    "category": "interior"
+  },
+  {
+    "id": 5,
+    "name": "Cactus Columnar",
+    "description": "Cactus alto y resistente, de crecimiento lento y mínimo cuidado. Ideal para quienes se olvidan de regar.",
+    "price": 9500,
+    "image": "/img/plants/cactus-columnar.jpg",
+    "category": "cactus"
+  },
+  {
+    "id": 6,
+    "name": "Cactus Erizo",
+    "description": "Cactus globular con pequeñas espinas y una flor delicada en la punta. Da mucha personalidad a cualquier rincón.",
+    "price": 5200,
+    "image": "/img/plants/cactus-erizo.jpg",
+    "category": "cactus"
+  }
+]
